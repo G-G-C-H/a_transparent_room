@@ -1,14 +1,33 @@
+/* http://hershey-noailles.luuse.io/www/#Hershey-Noailles-Futura-Simplex-Bold */
+
 @font-face {
-    font-family: 'syneextra';
-    src: url('syne-extra-webfont.woff2') format('woff2'),
-         url('syne-extra-webfont.woff') format('woff');
+    font-family: 'hersheylight';
+    src: url('Hershey-Noailles-Times-Duplex-Italic-Light.otf') format('otf'),
+         url('Hershey-Noailles-Times-Duplex-Italic-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'hersheybold';
+    src: url('Hershey-Noailles-Times-Duplex-Italic-Bold.otf') format('otf'),
+         url('Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hersheysimplex';
+    src: url('Hershey-Noailles-Futura-Simplex-Bold.otf') format('otf'),
+         url('Hershey-Noailles-Futura-Simplex-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
   padding: 0 20px;
-  font-family: 'syneextra';
+  font-family: 'hersheylight';
   color: black;
   font-size: 1em;
   height: 100vh;
@@ -16,12 +35,12 @@ body {
 }
 
 h1 {
-  font-family: 'syneextra';
+  font-family: 'hersheylight';
   padding-bottom: 0px;
 }
 
 p {
-  font-family: aktiv-grotesk-extended, sans-serif;
+  font-family: 'hersheysimplex', -serif;
   font-size: 1.25em;
 }
 
@@ -37,7 +56,7 @@ pre {
 a {
   color: royalblue;
   text-decoration: none;
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌹</text></svg>") 16 0,auto;
 }
 
 .sticky {
@@ -45,22 +64,15 @@ a {
   top: 0;
   left: 0;
   height: 100%;
-  /* overflow: scroll;
-  -webkit-overflow-scrolling: touch; */
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌹</text></svg>") 16 0,auto;
   width: 100%;
 }
 
-/* .home img {
-  width: 100%;
-  height: 100%;
-} */
 
 .home {
   font-size: 1em;
   padding: 30px;
-  border: 3px solid black;
-  background-color: gold;
+  background-color: #a6e3b6;
   display: block;
   width: 30%;
   height: auto;
@@ -70,8 +82,7 @@ a {
 }
 
 .it-begins {
-  border: 3px solid black;
-  background-color: cyan;
+  background-color: #a6e0e3;
   color: black;
   padding: 100px 120px;
   width: 40%;
@@ -79,8 +90,7 @@ a {
 }
 
 .dll-prompt {
-  border: 3px solid black;
-  background-color: orchid;
+  background-color: #a6a7e3;
   font-size: 3em;
   color: black;
   position: absolute;
@@ -91,8 +101,7 @@ a {
 }
 
 .love-quote {
-  border: 3px solid black;
-  background-color: yellow;
+  background-color: #a3a69f;
   font-size: 1.5em;
   color: black;
   position: absolute;
@@ -103,8 +112,7 @@ a {
 }
 
 .computer-garden-collage {
-  border: 3px solid black;
-  background-color: pink;
+  background-color: #cca297;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -120,8 +128,7 @@ a {
 }
 
 .emergent-collective-dll {
-  border: 3px solid black;
-  background-color: aquamarine;
+  background-color: #ccc897;
   display: block;
   width: auto;
   height: auto;
@@ -132,26 +139,24 @@ a {
 }
 
 .mixing-poetry-for-alliah {
-  border: 3px solid black;
-  background-color: mediumorchid;
+  background-color: #ccc897;
   position: absolute;
   top: 70%;
   left: 70%;
   width: auto;
   height: 100px;
-  padding: 50px;
+  padding: 10px;
   text-align: center;
 }
 
 .rose-pixel {
-  border: 3px solid black;
-  background-color: powderblue;
+  background-color: #97a7cc;
   position: absolute;
   top: 60%;
   left: 50%;
   width: 30%;
   height: auto;
-  padding: 30px;
+  padding: 5px;
 }
 
 .rose-pixel img {
@@ -160,8 +165,7 @@ a {
 }
 
 .folder-poems {
-  border: 3px solid black;
-  background-color: chartreuse;
+  background-color: #bfcc97;
   position: absolute;
   top: 1%;
   left: 70%;
@@ -222,7 +226,6 @@ button.btn-display-right:hover {
 }
 
 .zines-as-loving-practice-zoom-selfie {
-  border: 3px solid black;
   background-color: salmon;
   position: absolute;
   top: 5%;
@@ -238,14 +241,12 @@ button.btn-display-right:hover {
 }
 
 .interconnected-missed-connections {
-  border: 3px solid black;
-  background-color: springgreen;
+  background-color: #ccc897;
   position: absolute;
   top: 2%;
   left: 60%;
   width: 50%;
   height: auto;
-  padding: 30px;
 }
 
 .interconnected-missed-connections img {
@@ -254,8 +255,7 @@ button.btn-display-right:hover {
 }
 
 .computer-sunset {
-  border: 3px solid black;
-  background-color: cornflowerblue;
+  background-color: #a3a69f;
   position: absolute;
   top: 40%;
   left: 10%;
@@ -270,8 +270,7 @@ button.btn-display-right:hover {
 }
 
 .dll-class-description {
-  border: 3px solid black;
-  background-color: red;
+  background-color: #a6a7e3;
   position: absolute;
   top: 10%;
   left: 80%;
@@ -286,7 +285,6 @@ button.btn-display-right:hover {
 }
 
 .love-letter-to-dll {
-  border: 3px solid black;
   background-color: azure;
   position: absolute;
   top: 50%;
@@ -297,7 +295,6 @@ button.btn-display-right:hover {
 }
 
 .markov-chain-generated-love-poem {
-  border: 3px solid black;
   background-color: purple;
   position: absolute;
   top: 12%;
@@ -323,7 +320,6 @@ button.btn-display-right:hover {
   /* text-align: center; */
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border: 3px solid black;
   /* padding: 20px; */
 }
 
@@ -359,7 +355,7 @@ button.btn-display-right:hover {
 }
 
 .soup-title {
-  font-family: 'syneextra';
+  font-family: 'hersheylight';
   font-size: 1.5em;
   padding-bottom: 100px;
 }
@@ -373,7 +369,6 @@ a.btn-link{
   padding: 15px;
   color: black;
   font-size: 1em;
-  border: 3px solid black;
 }
 
 video {
@@ -387,9 +382,8 @@ video {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'syneextra';
+  font-family: 'hersheylight';
   background-color: white;
-  border: 3px solid black;
 }
 
 .ephemera {
@@ -402,7 +396,6 @@ video {
 }
 
 .dll-web-zine{
-  border: 3px solid black;
   background-color: MediumVioletRed;
   position: absolute;
   top: 10%;
