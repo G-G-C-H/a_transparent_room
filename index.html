@@ -144,7 +144,7 @@ We hope to inspire others to seek and nurture their own digital relationships, r
 
   </body>
 
-  <script>
+  <script class="desktop_visible">
     var slideIndex = 1;
     showDivs(slideIndex);
 
@@ -183,7 +183,7 @@ We hope to inspire others to seek and nurture their own digital relationships, r
       x[slideIndex-1].style.display = "block";
     }
   </script>
-  <script>
+  <script class="desktop_visible">
     function preventHide(){
       $('.btn-link').click(function(event) {
           event.preventDefault();
@@ -191,7 +191,7 @@ We hope to inspire others to seek and nurture their own digital relationships, r
       });
     }
   </script>
-  <script type="application/javascript">
+  <script type="application/javascript" class="desktop_visible">
     // const is another way of writing var
     // this line of code creates a variable called poetic edge which is equal to any element inside of the HTML that has a class called poetic-edge, in the case of this website each html section has this class, there are about 18 elements
     const poeticEdges = document.getElementsByClassName("poetic-edge");

@@ -447,7 +447,6 @@ video#bgVideo {
 }
 
 .desktop_visible {
-  display: block;
 }
 
 .mobile_visible {
@@ -455,7 +454,7 @@ video#bgVideo {
 }
 
 
-@media screen and (max-width: 400px) {
+@media (max-width: 600px) {
 body,html{
     color: black;
     font-size: 1em;
