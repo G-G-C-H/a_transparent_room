@@ -445,3 +445,28 @@ video#bgVideo {
   z-index: -100;
   background-size: contain;
 }
+
+.desktop_visible {
+  display: block;
+}
+
+.mobile_visible {
+  display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+body,html{
+    color: black;
+    font-size: 1em;
+}
+
+.desktop_visible {
+  display: none;
+}
+
+.mobile_visible {
+  display: block;
+}
+
+}
