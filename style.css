@@ -300,6 +300,7 @@ button.btn-display-right:hover {
 .welcome {
   background-color: white;
   border: 4px double black;
+  border-radius: 50%;
   position: absolute;
   top: 40%;
   left: 40%;
